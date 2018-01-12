@@ -1,0 +1,35 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application:
+
+    https://thawing-depths-14978.herokuapp.com/hello.html
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+
+    https://github.com/Dillongc21/cs313-php
+
+3. Briefly list and describe the elements of the application that are functioning. Include any special instructions
+   about how to login and/or use your application.
+
+    The Hello World! content on hello.html is, currently, the only working part of my application.
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+
+    None.
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+
+    The functionality of Heroku is pretty cool. It's really nice to have such a simple server setup to get an application
+    off the ground so quickly.
+
+6. Please select the category you feel best describes your assignment:
+
+E - Shows creativity and excels above and beyond requirements
+
+
+7. Provide a brief justification (1-2 sentences) for selecting that category.gi
+
+    In addition to getting my application fully functional and meeting all assignment requirements, I also found a
+    solution to having php 7.1 already installed on my machine. Using a homebrew package called homebrew-php, I installed
+    version 5.6 and then the package uses symlinks to unlink from one version and link to another, so that you can toggle
+    the two versions.
