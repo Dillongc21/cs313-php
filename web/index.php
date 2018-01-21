@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dillonsapp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" >
@@ -8,11 +8,15 @@
     <title>Dillon Christensen- CS 313</title>
 </head>
 <body>
-    <div class="grid grid-pad">
-        <div id="header" class="col-1-1">
-            <h1>Dillon Christensen</h1>
-            <h3>CS 313: Web Engineering II -- Brother Burton</h3>
+
+    <div class="header">
+        <div class="header-content grid grid-pad">
+            <div class="col-1-1">
+                <h1>Dillon Christensen</h1>
+                <h3>CS 313: Web Engineering I -- Brother Burton</h3>
+            </div>
         </div>
     </div>
+
 </body>
 </html>
