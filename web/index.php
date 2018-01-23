@@ -1,22 +1,17 @@
-<!DOCTYPE html>
-<html lang="en" class="dillonsapp">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
-    <link rel="stylesheet" href="css/simplegrid.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Dillon Christensen- CS 313</title>
-</head>
-<body>
+<?php
+$title = 'Home';
+include 'php-includes/head.php';
+?>
 
-    <div class="header">
-        <div class="header-content grid grid-pad">
-            <div class="col-1-1">
-                <h1>Dillon Christensen</h1>
-                <h3>CS 313: Web Engineering I -- Brother Burton</h3>
-            </div>
+<body>
+    <?php include 'php-includes/header.php';?>
+
+    <div class="content grid grid-pad">
+        <div class="prof-pic col-5-12"></div>
+        <div class="desc col-7-12">
+            <h1>About Me:</h1>
+            <p>Hi! I'm Dillon Christensen. I am a Computer Science Student</p>
         </div>
     </div>
-
 </body>
 </html>

@@ -1,9 +1,82 @@
-.gr__localhost{
-    padding: 0px;
+body {
+    margin: 0px;
+    background-color: darkgrey;
 }
 
-.header{
-    width: 100%;
-    background-image: url("../img/seattle.jpg");
-    height: 500px;
+.header-content {
+    text-align: center;
+}
+
+.header-title {
+    position: relative;
+    padding: 3%;
+    font-family: Poiret One, sans-serif;
+    font-size: 30px;
+    text-shadow: darkslateblue 2px 2px;
+}
+
+.header {
+    background: #000000 url("../img/seattle.jpeg") no-repeat center right;
+    background-size: auto 400px;
+    color: #f6f6f6;
+    height: 395px;
+}
+
+div.nav {
+    background-color: #313335;
+}
+
+ul.navbar {
+    list-style: none;
+    margin: 0px;
+}
+
+ul.navbar li {
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+ul.navbar li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: Questrial, sans-serif;
+}
+
+ul.navbar li a:hover {
+    color: white;
+    text-shadow: black 2px 2px 5px;
+}
+
+ul.navbar li:hover {
+    background-color: #858585;
+}
+
+ul.navbar li.active a:hover {
+    color: white;
+    text-shadow: black 2px 2px 15px;
+
+}
+
+ul.navbar li.active {
+    background-color: darkgray;
+}
+
+div.content {
+    margin-top: 5%;
+    padding: 5%;
+}
+
+div.prof-pic {
+    background: white url("../img/prof-pic.jpg") no-repeat center right;
+    background-size: auto 400px;
+    height: 395px;
+}
+
+div.desc {
+    padding-left: 100px;
+
 }
