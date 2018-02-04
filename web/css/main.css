@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-color: darkgrey;
+    font-family: Montserrat, sans-serif;
 }
 
 .header-content {
@@ -58,7 +59,6 @@ ul.navbar li:hover {
 ul.navbar li.active a:hover {
     color: white;
     text-shadow: black 2px 2px 15px;
-
 }
 
 ul.navbar li.active {
@@ -68,15 +68,53 @@ ul.navbar li.active {
 div.content {
     margin-top: 5%;
     padding: 5%;
+    background-color: #7b777c;
+    text-align: center;
 }
 
-div.prof-pic {
-    background: white url("../img/prof-pic.jpg") no-repeat center right;
-    background-size: auto 400px;
-    height: 395px;
+div.prof-pic img{
+    width: 100%;
+    border: 1px inset #221922;
 }
 
 div.desc {
-    padding-left: 100px;
+    color: white;
+    padding: 20px 50px;
+    background-color: #221922;
+    border-radius: 0px 50px 0px 50px;
+    float: right;
+    text-align: justify;
+}
 
+div.content{
+    border-top: 2px solid #313335;
+}
+
+div.divider{
+    height: 300px;
+    border-right: 2px solid #313335;
+}
+
+div.assign-list {
+    padding: 0px;
+}
+
+div.assign-list ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+div.assign-list ul li {
+    padding: 10px;
+}
+
+div.assign-list ul li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+    font-size: 40px;
+}
+
+div.assign-list ul li a:hover {
+    text-shadow: black 2px 2px 15px;
 }
