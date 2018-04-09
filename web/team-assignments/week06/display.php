@@ -4,7 +4,7 @@ try
 {
     $user = 'postgres';
     $password = 'Wasabi1121';
-    $db = new PDO('pgsql:host=localhost;dbname=scriptures',$user,$password);
+    $db = new PDO('pgsql:host=localhost;port=5433;dbname=scriptures',$user,$password);
 
 } catch (PDOException $ex)
 {
